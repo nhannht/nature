@@ -1,0 +1,5 @@
+#+title: Readme
+
+#+property: header-args :comments both :results values :exports both :noweb yes
+
+Born and raise in darkness, I always dream someday I can live and think like a human being. This is my very first attempt to doing this.
