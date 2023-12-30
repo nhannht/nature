@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    253910,       5835]
-NotebookOptionsPosition[    246857,       5710]
-NotebookOutlinePosition[    247252,       5726]
-CellTagsIndexPosition[    247209,       5723]
+NotebookDataLength[    255188,       5870]
+NotebookOptionsPosition[    247750,       5738]
+NotebookOutlinePosition[    248207,       5756]
+CellTagsIndexPosition[    248164,       5753]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -5691,7 +5691,7 @@ Cell[BoxData[
   ";"}]], "Input",
  CellChangeTimes->{{3.912779007891457*^9, 3.912779034995347*^9}},
  CellLabel->
-  "In[241]:=",ExpressionUUID->"bd6cadf4-5a1c-40ee-8957-79d85f6041cc"],
+  "In[157]:=",ExpressionUUID->"bd6cadf4-5a1c-40ee-8957-79d85f6041cc"],
 
 Cell[BoxData[
  RowBox[{"NotebookSave", "[", 
@@ -5705,11 +5705,41 @@ Cell[BoxData[
  CellChangeTimes->{{3.912778983444242*^9, 3.912779002115547*^9}, {
   3.912779038451449*^9, 3.91277905551581*^9}},
  CellLabel->
-  "In[242]:=",ExpressionUUID->"0e6bc139-a0e0-4d8f-8888-06d7016c1814"]
+  "In[242]:=",ExpressionUUID->"0e6bc139-a0e0-4d8f-8888-06d7016c1814"],
+
+Cell[BoxData[
+ RowBox[{"VerminExportKeepSyntaxHighLight", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.912956779081411*^9, 3.9129567833844633`*^9}},
+ CellLabel->
+  "In[158]:=",ExpressionUUID->"a6a18fcb-141d-48d1-9afd-76a808c99218"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{
+   RowBox[{"FileNameJoin", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Directory", "[", "]"}], ",", "\"\<humanlanguage.pdf\>\""}], 
+     "}"}], "]"}], ",", 
+   RowBox[{"EvaluationNotebook", "[", "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{3.912956766736961*^9},
+ CellLabel->
+  "In[159]:=",ExpressionUUID->"c90dcac1-58ad-4359-af20-ee6fbbc878ec"],
+
+Cell[BoxData["\<\"/home/vermin/nhannht-projects/nature/humanlanguage.pdf\"\>"]\
+, "Output",
+ CellChangeTimes->{3.912956786298111*^9},
+ CellLabel->
+  "Out[159]=",ExpressionUUID->"e0c2b8bb-be62-4e5a-a8f6-1870610a1acc"]
+}, Open  ]]
 }, Open  ]]
 },
+PrintingStyleEnvironment->"Printout",
 WindowSize->{1020, 536.25},
 WindowMargins->{{0, Automatic}, {Automatic, 19.5}},
+ShowSyntaxStyles->True,
 FrontEndVersion->"13.3 for Linux x86 (64-bit) (July 24, 2023)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"fcd9c32c-ecba-4c4b-983f-0e983cfc1af4"
@@ -5835,7 +5865,12 @@ Cell[245281, 5665, 316, 6, 29, "Input",ExpressionUUID->"6310ef4c-7010-492b-97f1-
 Cell[245600, 5673, 475, 11, 33, "Output",ExpressionUUID->"882ea900-8c20-4a18-86a1-13232dc116dc"]
 }, Open  ]],
 Cell[246090, 5687, 267, 6, 29, "Input",ExpressionUUID->"bd6cadf4-5a1c-40ee-8957-79d85f6041cc"],
-Cell[246360, 5695, 481, 12, 29, "Input",ExpressionUUID->"0e6bc139-a0e0-4d8f-8888-06d7016c1814"]
+Cell[246360, 5695, 481, 12, 29, "Input",ExpressionUUID->"0e6bc139-a0e0-4d8f-8888-06d7016c1814"],
+Cell[246844, 5709, 230, 4, 29, "Input",ExpressionUUID->"a6a18fcb-141d-48d1-9afd-76a808c99218"],
+Cell[CellGroupData[{
+Cell[247099, 5717, 404, 11, 29, "Input",ExpressionUUID->"c90dcac1-58ad-4359-af20-ee6fbbc878ec"],
+Cell[247506, 5730, 216, 4, 33, "Output",ExpressionUUID->"e0c2b8bb-be62-4e5a-a8f6-1870610a1acc"]
+}, Open  ]]
 }, Open  ]]
 }
 ]
